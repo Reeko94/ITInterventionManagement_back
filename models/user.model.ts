@@ -28,4 +28,4 @@ User.init({
     sequelize: database
 });
 
-User.sync({force: true}).then(() => console.log('User table created')).catch(err => console.log(err));
+User.sync({force: false}).then(() => console.log('User table created')).catch(err => console.log(err));

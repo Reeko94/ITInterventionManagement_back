@@ -1,0 +1,17 @@
+[
+  {
+    "model": "Customer",
+    "data": {
+      "id": 1,
+      "firstname": "Customer Firstname",
+      "lastname": "Customer Lastname",
+      "email": "email@email.com",
+      "phone": "0101010101",
+      "address": "Rue de Paris",
+      "zipcode": "01111",
+      "city": "City",
+      "createdAt": "2020-12-05",
+      "updatedAt": "2020-12-05"
+    }
+  }
+]
