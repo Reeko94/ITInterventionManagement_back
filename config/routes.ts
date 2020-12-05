@@ -1,9 +1,10 @@
-import {CustomersController} from "../controllers/customers.controller";
+import {UsersController} from "../controllers/users.controller";
 
 export class Routes {
-    public customerController: CustomersController = new CustomersController();
+    public usersController: UsersController = new UsersController();
 
     public routes(app): void {
-        app.route("/").get(this.customerController.index);
+        app.route("/users/authenticate").post(this.usersController.login);
     }
 }
+

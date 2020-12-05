@@ -1,0 +1,12 @@
+[
+  {
+    "model": "User",
+    "data": {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "createdAt": "2020-12-05",
+      "updatedAt": "2020-12-05"
+    }
+  }
+]
